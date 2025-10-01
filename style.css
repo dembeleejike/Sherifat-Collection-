@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f7f7f7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    
+}
+.container{
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px;
+    
+}
+header{
+    text-align: center;
+    
+}
+header h1{
+    color: #ff4da6;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    
+}
+header p{
+    font-size: 0.85rem;
+}
+header h2{
+     color: #ffcc00;
+    font-size: 2rem;
+    font-style: italic;
+    margin-top: 14px;
+}
+header p{
+  margin-bottom: 20px;  
+}
+.product-display{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.gallery{
+    position: relative;
+    flex: 1;
+    
+}
+.gallery input{
+    display: none;
+    
+}
+.images{
+    text-align: center;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    
+}
+.images h3{
+    color: #ffcc00;
+    font-size: 2rem;
+}
+.images p{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: sans-serif;
+    
+}
+.image{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#img1:checked ~ .images #slide1,#img2:checked ~ .images #slide2,#img3:checked ~ .images #slide3,#img4:checked ~ .images #slide4,#img5:checked ~ .images #slide5{
+    display: block;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.thumbnails{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.thumbnails label{
+    cursor: pointer;
+}
+.thumbnails img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+.price{
+    color: lawngreen;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.product-displays{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.gallerys{
+    position: relative;
+    flex: 1;
+    
+}
+.gallerys input{
+    display: none;
+    
+}
+.imagess{
+    text-align: center;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.imagess h3{
+    color: #ffcc00;
+    font-size: 2rem;
+}
+.imagess p{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: sans-serif;
+    
+}
+
+#img6:checked ~ .imagess #slide6,#img7:checked ~ .imagess #slide7,#img8:checked ~ .imagess #slide8,#img9:checked ~ .imagess #slide9,#img10:checked ~ .imagess #slide10{
+    display: block;
+}
+.imag{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+
+
+.price{
+    color: #0047ff;
+    font-weight: bold;
+}
+h4{
+    color: #ff4da6;
+    font-size: 2rem;
+}
+.trouser{
+    color: #ff4da6;
+}
+.cart{
+    background: #1e1e1e;
+    margin-top: 15px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+span{
+    color: #ff4da6;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}.imag img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+    border-radius: 20px;
+}
+.contact-info{
+    padding-top: 10px;
+}
